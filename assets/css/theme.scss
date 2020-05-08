@@ -6,12 +6,14 @@ $brown: #B59F62;
 $teal: #40FFDC;
 $black: #111;
 $primary: $teal;
+$dark:    $black;
+$enable-rounded: false;
 
-
-@import "bootstrap/functions";
-@import 'bootstrap/variables';
-@import 'bootstrap/bootstrap';
-@import 'stars';
+@import "/_sass/bootstrap/_functions.scss";
+@import '/_sass/bootstrap/_variables.scss';
+@import "/_sass/bootstrap/_mixins.scss";
+@import '/_sass/bootstrap/_bootstrap.scss';
+@import '/_sass/_stars.scss';
 
 
 // general
